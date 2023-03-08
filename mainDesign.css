@@ -44,21 +44,24 @@ h1 {
 .aboutMeBTN {
     color: whitesmoke;
     text-decoration: none;
-    position: fixed;
-    top: 3.5%;
+    position: absolute;
+    padding: 10px;
+    top: 1.8%;
     left: 85%;
 }
 
 .homeBTN {
     color: whitesmoke;
     text-decoration: none;
-    position: fixed;
-    top: 3.5%;
-    left: 75%;
+    color: whitesmoke;
+    text-decoration: none;
+    position: absolute;
+    padding: 10px;
+    top: 1.8%;
+    left: 70%;
 } .homeBTN:hover, .aboutMeBTN:hover {
     background: whitesmoke;
     color: black;
     border-radius: 20px;
-    padding: 10px;
     transition: 0.3s;
 }
