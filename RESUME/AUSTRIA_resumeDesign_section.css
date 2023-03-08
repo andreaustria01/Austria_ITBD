@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: "montserrat", "arial";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 1000px;
+    margin:60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.box .left_box {
+    position: relative;
+    background: gray;
+    width: 370px;
+    padding: 20px;
+    clear: both;
+    border-radius: 10px;
+}
+
+.info {
+    float: right;
+    text-align: right;
+
+}
+
+.box .right_box {
+    position: relative;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img1 img {
+    border-radius: 50%;
+}
