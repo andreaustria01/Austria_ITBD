@@ -44,32 +44,28 @@ h1 {
     transition: 0.4s;
 }
 
-.aboutMeBTN, .home {
+.home {
+    left: 47%;
+} .childBTN {
+    left: 55%;
+} .teenBTN {
+    left: 71%;
+} .collegeBTN {
+    left: 85%;
+} .home, .childBTN, .teenBTN ,.collegeBTN {
     color: whitesmoke;
+    text-align: center;
     text-decoration: none;
     font-family: "montserrat", "arial";
     position: absolute;
     padding: 10px;
     transition: 0.4s;
-}
-
-.aboutMeBTN {
     top: 18%;
-    left: 85%;
-} .home {
-    top: 18%;
-    left: 70%;
-} .home:hover, .aboutMeBTN:hover {
+} .home:hover, .childBTN:hover, .teenBTN:hover, .collegeBTN:hover {
     background: whitesmoke;
     color: black;
     border-radius: 20px;
     transition: 0.3s;
-}
-
-.aboutMe {
-    position: absolute;
-    top: 120%;
-    left: 43%;
 }
 
 /**end of the copy**/
@@ -129,9 +125,9 @@ h1 {
 }
 
 .college {
-    padding-top: 8%;
+    padding-top: 5.5%;
     position: absolute;
-    top: 354%;
+    top: 360%;
     left: 41.1%
 } .collegeStory {
     text-align: center;
@@ -145,4 +141,16 @@ h1 {
     top: 379%;
     right: 43%;
     width: 20%;
+}
+
+.backToTop {
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 20%;
+    position: absolute;
+    top: 465%;
+    left: 44.5%;
+} .backToTop:hover {
+    opacity: 100%;
+    text-decoration: underline;
 }
