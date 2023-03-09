@@ -18,6 +18,16 @@ body {
     
 }
 
+.me {
+    align-content: center;
+    text-align: left;
+    font-size: 70px;
+    position: absolute;
+    right: 5%;
+    top: 14%;
+    transition: 0.4s;
+}
+
 .box {
     background: rgba(0, 0, 0, 0.5);
     border-bottom: solid;
@@ -99,4 +109,16 @@ body {
     position: absolute;
     top: 140%;
     left: 68%;
+}
+
+.middle {
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 20%;
+    position: absolute;
+    top: 200%;
+    left: 44%;
+} .middle:hover {
+    opacity: 100%;
+    text-decoration: underline;
 }
