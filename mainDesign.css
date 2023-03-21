@@ -15,7 +15,8 @@ body {
     left: 10%;
     top: 30%;
     transition: 0.4s;
-    
+    height: 20%;
+    width: auto;
 }
 
 .me {
@@ -26,6 +27,7 @@ body {
     right: 5%;
     top: 14%;
     transition: 0.4s;
+    max-width: 75%
 }
 
 .box {
@@ -33,15 +35,14 @@ body {
     border-bottom: solid;
     border-color: white;
     border-width: 2px;
-    padding-bottom: 4.5%;
     width: 100%;
+    height: 9.5%;
     transition: 0.4s;
     position: fixed;
-    top: 0%;
 }
 
 .menu {
-    width: auto;
+    max-width: 100%;
     height: 30px;
     align-items: center;
     background: white;
@@ -56,13 +57,15 @@ body {
 
 
 
-.aboutMeBTN {
+.HBIBTN {
     color: whitesmoke;
     text-decoration: none;
     position: absolute;
     padding: 10px;
     top: 18%;
     left: 85%;
+    width: 6.2;
+    height: auto;
     transition: 0.4s;
 }
 
@@ -74,25 +77,60 @@ body {
     top: 18%;
     left: 70%;
     transition: 0.4s;
-} .resumeBTN:hover, .aboutMeBTN:hover {
+    height: auto;
+} .resumeBTN:hover, .HBIBTN:hover {
     background: whitesmoke;
     color: black;
     border-radius: 20px;
     transition: 0.3s;
 }
 
-.aboutMe {
+.aboutMeBTN {
+    background: white;
+    border: solid;
+    border-color: white;
+    border-width: 1.1px;
+    border-radius: 8px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
     position: absolute;
+    padding: 10px;
+    left: 10%;
+    top: 75%;
+    transition: 0.4s;
+    width: auto;
+}.aboutMeBTN:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.aboutMe {
+    color: whitesmoke;
+    text-decoration: none;
+    position: absolute;
+    padding: 10px;
+    font-size: 32pt;
+    font-weight: bold;
+    max-width: 100%;
     top: 120%;
-    left: 43%;
+    left: 40.5%;
+    transition: 0.4s;
+}.aboutMe:hover {
+    background: white;
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
 .child, .teen, .adult {
     background: white;
     border-radius: 20%;
     padding: 2%;
-    width: auto;
-    height: 40%;
+    width: 19%;
+    height: auto;
 }
 
 .child {
@@ -120,6 +158,7 @@ body {
     position: absolute;
     top: 200%;
     left: 44%;
+    max-width: 30%;
 } .middle:hover {
     opacity: 100%;
     text-decoration: underline;
