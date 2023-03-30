@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Short Bio</title>
+    <meta charset="viewport" content="width-device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="beats_Design.css">
+    <script src="../js/menubar.js"></script>
+</head>
+<body>
+    <!--ITBD AUSTRIA ANDRE CARL O.-->
+    <div class="wholeB">
+        <div class="navmenu">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="../main.html">HOME</a></li>
+                    <li><a href="../CHARACTERISTICS/HBI.html">SKILLS</a></li>
+                    <li><a href="../RESUME/AUSTRIA_RESUME_SECTION.html">RESUME</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">BEATS</a></li>
+                    <li><a href="">MOVIES</a></li>
+                    <li><a href="">TV SHOWS</a></li>
+                    <li><a href="">DREAM PLACE</a></li>
+                    <li><a href="">BUCKET LIST</a></li>
+                </ul>
+            </nav>
+            <div class="menu" onclick="myFunction(this), togglemenu()">
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="musicB">
+                <h1>
+                    My beats
+                </h1>
+
+                <div class="greatS">
+                    <img src="Music/Rock/greatScape.png" alt="My pic" class="greatSimg">
+                    <div class="titleG">
+                        <h3>
+                            GREAT SCAPE
+                        </h3>
+                        <h5>
+                            - Boys Like Girls
+                        </h5>
+                    </div>
+                    <audio controls class="greatSM">
+                        <source src="Music/Rock/greatScape.mp3" type="audio/mpeg"
+                    </audio>
+                </div>
+
+                <div class="WTML">
+                    <img src="Music/Rock/simple plan.jpg" alt="My pic" class="WTMLimg">
+                    <div class="titleW">
+                        <h3>
+                            WELCOME TO MY LIFE
+                        </h3>
+                        <h5>
+                            - Simple Plan
+                        </h5>
+                    </div>
+                    <audio controls class="WTMLSM">
+                        <source src="Music/Rock/MyLife.mp3" type="audio/mpeg"
+                    </audio>
+                </div>
+
+                <div class="Kings">
+                    <img src="Music/Rock/simple plan.jpg" alt="My pic" class="Kingsimg">
+                    <div class="titleK">
+                        <h3>
+                            KINGS OF THE DAY
+                        </h3>
+                        <h5>
+                            - Pierce Of Veil
+                        </h5>
+                    </div>
+                    <audio controls class="KingsSM">
+                        <source src="Music/Rock/Kings.mp3" type="audio/mpeg"
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(manuList) {
+            if (menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px";
+                }
+            else 
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
