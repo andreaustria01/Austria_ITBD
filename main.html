@@ -2,45 +2,63 @@
 <html lang="en">
 <head>
 	<title>HOME</title>
-	<meta charset="utf-8" />
-    <link rel="stylesheet" href="mainDesign.css">
+	<meta charset="viewport" content="width-device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="main_Design.css">
+    <script src="js/menubar.js"></script>
 </head>
-<body id="top">
-	<!--ITBD-AUSTRIA-ANDRE CARL O.-->
+<body>
+	<!--ITBD AUSTRIA ANDRE CARL O.-->
+    <div class="wholeB">
+        <div class="navmenu">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="ABOUT ME/ABOUT_ME.html">About Me</a></li>
+                    <li><a href="CHARACTERISTICS/HBI.html">Skills</a></li>
+                    <li><a href="RESUME/AUSTRIA_RESUME_SECTION.html">Resume</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">My beats</a></li>
+                    <li><a href="">My Films Movies</a></li>
+                    <li><a href="">My Film TV Shows</a></li>
+                    <li><a href="">Dream Places</a></li>
+                    <li><a href="">Bucket List</a></li>
+                </ul>
+            </nav>
+            <div class="menu" onclick="myFunction(this), togglemenu()">
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+            </div>
+        </div>
 
-    <h1 class="name">
-        Hi, I am <br>
-        AUSTRIA, <br>
-        ANDRE CARL O.
-    </h1>
-    
-    <a class="aboutMeBTN" href="#aboutMeSection">ABOUT ME</a>
-
-    <div>
-        <img src="Images/RemovedBg.png" alt="My pic" class="me">
+        <div class="cont">
+            <div class="nameB">
+                <h1>
+                    Hi, I am<br>
+                    AUSTRIA,<br>
+                    ANDRE CARL O.
+                </h1>
+            </div>
+            <div class="mypic">
+                <img src="Images/RemovedBg.png" alt="My pic" class="me">
+            </div>
+        </div>
     </div>
-	
-    <div class="box">
-        <img src="Images/Icons/menu.svg" alt="Menu Icon" class="menu">
-        
-        <a class="resumeBTN" href="RESUME/AUSTRIA_RESUME_SECTION.html" target="_blank"> RESUME</a>
-        <a class="HBIBTN" href="/CHARACTERISTICS/HBI.html"> HBI</a>
-    </div>
 
-    <a id="aboutMeSection" class="aboutMe" href="ABOUT ME/ABOUT_ME.html">
-        ABOUT ME
-    </a>
-
-    <a href="ABOUT ME/ABOUT_ME.html#child">
-        <img src="Images/Icons/childhood.png" alt="child Icon" class="child">
-    </a>
-    <a href="ABOUT ME/ABOUT_ME.html#teenage">
-        <img src="Images/Icons/teenhood.png" alt="teen Icon" class="teen">
-    </a>
-    <a href="ABOUT ME/ABOUT_ME.html#college">
-        <img src="Images/Icons/adult.png" alt="adult Icon" class="adult">
-    </a>
-    <a class="middle" href="#top">Go back to the top</a>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(manuList) {
+            if (menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px";
+                }
+            else 
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
 
 </body>
 </html>
